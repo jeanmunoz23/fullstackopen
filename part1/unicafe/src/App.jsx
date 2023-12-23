@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Button = (props) => (
   <button onClick={props.handleClick}>
@@ -10,7 +10,7 @@ const StatisticLine = (props) => (
   <tr>
     <td>{props.text} </td>
     <td>{props.value / props.all} {props.optional}</td>
-  </tr>  
+  </tr>
 )
 
 const Statistics = (props) => {
@@ -19,7 +19,7 @@ const Statistics = (props) => {
       <tbody>
         <tr>
           <td>
-            No Feedback Given 
+            No Feedback Given
           </td>
         </tr>
       </tbody>
