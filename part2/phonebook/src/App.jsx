@@ -26,6 +26,7 @@ const App = () => {
     }
     setNewName('')
     setNewNumber('')
+    setFilter('')
   }
 
   const handleNameChange = (event) => {
